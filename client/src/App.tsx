@@ -9,6 +9,7 @@ import { HomeMain } from "@/pages/HomeMain";
 import { VideoProduction } from "@/pages/VideoProduction";
 import { CaseStudies } from "@/pages/CaseStudies";
 import { MotionGraphics } from "@/pages/MotionGraphics";
+import { Reels } from "@/pages/Reels";
 
 function Router() {
   return (
@@ -18,6 +19,7 @@ function Router() {
       <Route path="/video-production" component={VideoProduction} />
       <Route path="/case-studies" component={CaseStudies} />
       <Route path="/motion-graphics" component={MotionGraphics} />
+      <Route path="/reels" component={Reels} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
