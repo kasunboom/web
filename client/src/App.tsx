@@ -8,6 +8,7 @@ import NotFound from "@/pages/not-found";
 import { HomeMain } from "@/pages/HomeMain";
 import { VideoProduction } from "@/pages/VideoProduction";
 import { CaseStudies } from "@/pages/CaseStudies";
+import { MotionGraphics } from "@/pages/MotionGraphics";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/" component={HomeMain} />
       <Route path="/video-production" component={VideoProduction} />
       <Route path="/case-studies" component={CaseStudies} />
+      <Route path="/motion-graphics" component={MotionGraphics} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
